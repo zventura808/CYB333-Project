@@ -105,12 +105,12 @@ def main():
     print("====================================")
     print(" Automated Password Strength Checker")
     print("====================================")
-    user_password = input("Enter a password to check:Asdasd123! ")
+    user_password = input("Enter a password to check: ")
 
     display_results(user_password)
     print("\nDone! Always remember to use unique, strong passwords for every account.")
 
 
-
-
-
+# Run the program
+if __name__ == "__main__":
+    main()
